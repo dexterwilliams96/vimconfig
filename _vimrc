@@ -39,6 +39,7 @@ set smartindent
 set smarttab
 set expandtab
 set nowrap
+set belloff=all
 set list
 set listchars=eol:.,tab:>-,trail:~,extends:>,precedes:<
 
