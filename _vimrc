@@ -10,9 +10,9 @@ Plug 'tpope/vim-surround'
 Plug 'dense-analysis/ale'
 Plug 'preservim/tagbar'
 Plug 'junegunn/fzf' | Plug 'junegunn/fzf.vim'
-Plug 'SirVer/ultisnips'
 Plug 'yggdroot/indentline'
 Plug 'vim-autoformat/vim-autoformat'
+Plug 'github/copilot.vim'
 
 call plug#end()
 
@@ -67,6 +67,9 @@ set smartcase
 set incsearch
 set hlsearch
 nnoremap <CR> :noh<CR><CR>:<backspace>
+
+let g:ale_virtualtext_cursor = 'disabled'
+let g:ale_set_highlights = 0
 
 set termguicolors
 let g:gruvbox_italic=1
