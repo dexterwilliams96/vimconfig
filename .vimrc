@@ -67,6 +67,7 @@ set smartcase
 set incsearch
 set hlsearch
 nnoremap <CR> :noh<CR><CR>:<backspace>
+nmap <F8> :TagbarToggle<CR>
 
 so ~/.vim/plugins.vim
 so ~/.vim/plugin-config.vim
