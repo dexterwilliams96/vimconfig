@@ -67,6 +67,7 @@ set smartcase
 set incsearch
 set hlsearch
 nnoremap <CR> :noh<CR><CR>:<backspace>
+nmap <F8> :TagbarToggle<CR>
 
 let g:ale_virtualtext_cursor = 'disabled'
 let g:ale_set_highlights = 0
