@@ -13,6 +13,8 @@ Plug 'junegunn/fzf' | Plug 'junegunn/fzf.vim'
 Plug 'yggdroot/indentline'
 Plug 'vim-autoformat/vim-autoformat'
 Plug 'github/copilot.vim'
+Plug 'camspiers/animate.vim'
+Plug 'camspiers/lens.vim'
 
 call plug#end()
 
